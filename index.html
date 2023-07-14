@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+</head>
+<body>
+    <h1>HTML para Iniciantes</h1>
+    <hr />
+
+    <h2 id="inicio">Índice</h2>
+        <ul>
+            <li><a href="#HTML"> Tudo que precisa saber sobre HTML</a></li>
+            <li><a href="#basico">O básico que funciona</a></li>
+            <li><a href="#parada">Umas parada legal pra saber</a></li>
+        </ul>
+
+    <i><h3 id="HTML">Tudo que Presica Saber Sobre HTML</h3></i>
+    <small><a href="#inicio">Voltar</a></small>
+    <h4>Você sabia que o HTML não é uma linguagem de programção, afinal o que é o HTML?</h4><P>Primeiro devemos entedender que uma liguagem de programação é como o programador se comunica com a máquina. Então o que é o HTML?</P>
+    <p Align="justify"> O HiperText Markup Language - linguagem de marcação de hipertexto. Um hipertexto nada mais é que um texto que é usado para fazer referência a outros textos, com ele é possível criar a estrutura, definir o posicionamento dos elementos, estruturar a divisão de uma página em blocos visuais e combinar texto, imagens e vídeos. Resumindo a linguagem de marcação é o que diz para o servidor web qual o estilo e estrutura do documento</p>
+    <p Align="justify">O HTML pode ser usado para desenvolvimento web, navegação na internet, documentação e outras coisas. Além de que agora o HTML é considerado padrão oficial da internet, o que isso significa? Que a World Wide Consortium (W3C) mantém e desenvolve especificações e atualizações regulares. Então continuaremos usando o HTML sem medo de ser feliz, pois não ficará obsoleto tão cedo.</p>
+
+    <i><h3 id="basico">O básico que funciona</h3></i>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>O HTML tem uma estrura básica para funcionar. Nesse tópico iremos falar mais sobre isso!</p>
+    <p Align="justify">Pra começar existe algumas denominações para identificar os diferentes itens da estrutura do HTML. E esses comandos são tags, elementos e o atributos. As <strong><i>tags</i></strong> representa denominação de um elemento, é o que diz para o navegador onde começa e termina, é um rótulo para indicar qual a função daquele conteúdo. O <strong><i>atributo</i></strong> representa as caracteristicas e as funcionalidades que cada elemento pode ter; a atributos globais que funcionam igual para todos os elementos e atributos específicos. O <strong><i>elemento</i></strong> representa um item presente na página, como um parágrafo, uma imagem, um link, um formulário e outros recursos da página.  
+        <ul> As três principais partes de um elemento:
+            <li style="color: rgb(168, 73, 10);">Tag de Abertura</li>
+            <li style="color: rgb(168, 73, 10);">Conteudo</li>
+            <li style="color: rgb(168, 73, 10);">Tag de Fechamento</li>
+        </ul></p>
+    <p Align="justify">Funciona basicamente assim, a tag de abertura diz onde o elemento começa a ter efeito, ela tem colchetes angulares para abertura e fechamento assim: < >, dentro dela é atribuido '*'. A tag de fechamento é igual com a diferença de que entre os colchetes vem uma barra, assim: < / '*' >. Entre elas vem o CONTEUDO, a parte que os usuários verão.</p>
+    <p>O atributo é o que fica dentro da tag, é essa informação que controla o comportamento do elemento da maneira que esperamos. Os atributos mais básicos são:
+        <ul>
+            <li>A tag &lt;html&gt; é o elemento raiz que define todo o documento HTML.</li>
+            <li>A tag &lt;head&gt; contém metadados sobre o título e a codificação de caracteres da página.</li>
+            <li>A tag &lt;body&gt; inclui todo o conteúdo que aparece na página.</li>
+            <li>A tag &lt;h1&gt; cria título principal. Títulos tem hierarquia que vai do h1 até o h6.</li>
+            <li>A tag &lt;p&gt; é para adicionar um parágrafo no HTML</li>
+            <li>A tag &lt;ol&gt;, e a tag &lt;ul&gt; são listas que podem ser ordenadas ou desordenada. A tag &lt;li&gt; é usada para representar um item dentro dessas listas. </li>
+            <li>A tag &lt;u&gt; representa sublinhar enquanto a tag &lt;i&gt; é o itálico, e o &lt;strong&gt; o negrito.</li>
+        </ul></p>
+    
+    <p>E é assim que iniciamos o nosso código HTML:</p> 
+    <p><img src="https://3.bp.blogspot.com/-IX-F-TJrXgY/UtPRrwxJ2yI/AAAAAAAADCk/pYaTVCv1zn8/s1600/codigo+html5.jpg"></p>
+
+    <i><h3 id="parada">Umas paradas legal pra saber</h3></i>
+    <small><a href="#inicio">Voltar</a></small>
+    <p Align="justify">Uma coisa interessante sobre o HTML é que é uma linguagem muito básica, e mesmo utilizando outras linguagens de programação resultará em códigos HTML.</p>
+    <P> <ul>
+        <li Align="justify"> O HTML não precisa de ferramentas avançadas para codar, um simples bloco de notas ja é o suficiente, é importante também para fixar os códigos de forma mais rápida. Com tempo Você poderá aderir a outros editores, se assim desejar!</li>
+        <li Align="justify"> Quando estamos iniciando e você olha para um código-fonte é de assustar qualquer um, porém não devemos olhar para ele como se fosse impossivel. O código-fonte deve ser olhado por partes, linha por linha, trecho por trecho; e não como um todo, assim nao será mais tão assustador!!</li>
+        <li Align="justify">O DOCTYPE é o que renderiza o site, você não pode deixar passar. O DOCTYPE é uma declaração que informa para o navegador o tipo de documento e qual é a versão do HTML que ele está usando.
+            <q>A versão 5 o HTML deixou de ser baseado em SGML (Standard Generalized Markup Language), e com isso a forma de declarar o DOCTYPE foi simplificada.</q>
+        </li>
+        <li Align="justify">Nunca esqueça de informar a codificação de caracteres no HTML, sem isso vai ficar uma bagunça na hora de reproduzir o código. Isso acontece porque o HTML não consegue, sozinho, interpretar todos os simbolos que existem no mundão a fora! Então através do meta tag CHARGET informamos o tipo de codificação. No caso do Brasil usamos o <strong><i>&lt;meta charset=”UTF-8″&gt;</i></strong> para usar os 128 caracteres básicos</li>
+    </ul></P>
+    <h4>Para saber mais informações segue esses sites aqui que irão ajudar!</h4>
+    <p>
+        <ul>
+            <li> <a href="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica?gclid=CjwKCAjw5MOlBhBTEiwAAJ8e1g6i0tYWli91omIWsv0B6BMl_bnte7VgBAC9FS_EPc-rHJ3rXVoRfBoCVw8QAvD_BwE" target="_blank">O que é o HTML e suas tags? Parte 1: estrutura básica</a></li>
+            <li> <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML:Linguagem de Marcação de Hipertexto</a></li>
+            <li><a href="https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos" target="_blank">HTML:Linguagem de Marcação de Hipertexto</a></li>
+        </ul>
+    </p>
+    <p><img src="https://i.pinimg.com/736x/3b/74/93/3b749333723d1e379fc3731d16949e8b--meme-html-css.jpg"></p>
+   
+</body>
+</html>
+
+<!-- &lt;div&gt;Teste&lt;/div&gt; -->
